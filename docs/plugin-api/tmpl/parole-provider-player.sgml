@@ -1,0 +1,229 @@
+<!-- ##### SECTION Title ##### -->
+ParoleProviderPlayer
+
+<!-- ##### SECTION Short_Description ##### -->
+The interface of the player.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+The player interface that the plugins should use in order to, issue playback 
+commands to the Parole GStreamer backend or to get information about the current
+playback status.
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT ParoleProviderPlayerIface ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL ParoleProviderPlayerIface::seeked ##### -->
+<para>
+
+</para>
+
+@paroleproviderplayeriface: the object which received the signal.
+@arg1: 
+
+<!-- ##### SIGNAL ParoleProviderPlayerIface::state-changed ##### -->
+<para>
+
+</para>
+
+@paroleproviderplayeriface: the object which received the signal.
+@arg1: 
+@arg2: 
+
+<!-- ##### SIGNAL ParoleProviderPlayerIface::tag-message ##### -->
+<para>
+
+</para>
+
+@paroleproviderplayeriface: the object which received the signal.
+@arg1: 
+
+<!-- ##### STRUCT ParoleProviderPlayer ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM ParolePluginContainer ##### -->
+<para>
+
+</para>
+
+@PAROLE_PLUGIN_CONTAINER_PLAYLIST: 
+@PAROLE_PLUGIN_CONTAINER_MAIN_VIEW: 
+
+<!-- ##### ENUM ParoleState ##### -->
+<para>
+
+</para>
+
+@PAROLE_STATE_STOPPED: 
+@PAROLE_STATE_PLAYBACK_FINISHED: 
+@PAROLE_STATE_ABOUT_TO_FINISH: 
+@PAROLE_STATE_PAUSED: 
+@PAROLE_STATE_PLAYING: 
+
+<!-- ##### FUNCTION parole_provider_player_pack ##### -->
+<para>
+
+</para>
+
+@player: 
+@widget: 
+@title: 
+@container: 
+
+
+<!-- ##### FUNCTION parole_provider_player_get_action ##### -->
+<para>
+
+</para>
+
+@player: 
+@action: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_set_fullscreen ##### -->
+<para>
+
+</para>
+
+@player: 
+@fullscreen: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_get_fullscreen ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_stream_set_image ##### -->
+<para>
+
+</para>
+
+@object: 
+@pixbuf: 
+
+
+<!-- ##### FUNCTION parole_stream_get_image ##### -->
+<para>
+
+</para>
+
+@object: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_get_state ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_get_stream_position ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_play_uri ##### -->
+<para>
+
+</para>
+
+@player: 
+@uri: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_pause ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_resume ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_stop ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_play_next ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_play_previous ##### -->
+<para>
+
+</para>
+
+@player: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_seek ##### -->
+<para>
+
+</para>
+
+@player: 
+@pos: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_provider_player_open_media_chooser ##### -->
+<para>
+
+</para>
+
+@player: 
+
+

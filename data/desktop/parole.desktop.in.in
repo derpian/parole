@@ -1,0 +1,29 @@
+[Desktop Entry]
+_Name=Parole Media Player
+_Comment=Play your media
+Icon=parole
+Exec=parole %F
+Terminal=false
+Type=Application
+Categories=GTK;AudioVideo;Player;Video;
+StartupNotify=true
+
+Actions=Play;Previous;Next;
+
+[Desktop Action Play]
+Exec=parole --play
+_Name=Play/Pause
+Icon=media-playback-start-symbolic
+OnlyShowIn=Unity;
+
+[Desktop Action Previous]
+Exec=parole --previous
+_Name=Previous Track
+Icon=media-skip-backward-symbolic
+OnlyShowIn=Unity;
+
+[Desktop Action Next]
+Exec=parole --next
+_Name=Next Track
+Icon=media-skip-forward-symbolic
+OnlyShowIn=Unity;

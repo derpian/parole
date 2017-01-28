@@ -1,0 +1,183 @@
+<!-- ##### SECTION Title ##### -->
+ParoleFile
+
+<!-- ##### SECTION Short_Description ##### -->
+Simple file handling.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT ParoleFile ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG ParoleFile:content-type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG ParoleFile:custom-subtitles ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG ParoleFile:directory ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG ParoleFile:display-name ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG ParoleFile:dvd-chapter ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG ParoleFile:filename ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG ParoleFile:uri ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION parole_file_new ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_new_with_display_name ##### -->
+<para>
+
+</para>
+
+@filename: 
+@display_name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_new_cdda_track ##### -->
+<para>
+
+</para>
+
+@track_num: 
+@display_name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_new_dvd_chapter ##### -->
+<para>
+
+</para>
+
+@chapter_num: 
+@display_name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_get_file_name ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_get_display_name ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_get_uri ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_get_directory ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_get_content_type ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_set_dvd_chapter ##### -->
+<para>
+
+</para>
+
+@file: 
+@dvd_chapter: 
+
+
+<!-- ##### FUNCTION parole_file_get_dvd_chapter ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+
+<!-- ##### FUNCTION parole_file_set_custom_subtitles ##### -->
+<para>
+
+</para>
+
+@file: 
+@suburi: 
+
+
+<!-- ##### FUNCTION parole_file_get_custom_subtitles ##### -->
+<para>
+
+</para>
+
+@file: 
+@Returns: 
+
+

@@ -1,0 +1,268 @@
+0.8.1
+=====
+- New hidden setting to persistently hide the menubar
+- Bugs Fixed
+  - MPRIS2 plugin: Add missing signal watch on shuffle property (Bug 12045)
+  - Fixed building in debug mode
+  - Fix crash on close that would happen in some systen configurations (Bug 12169)
+  - Make appdata validate (Bug 11653)
+- Translation Updates: Chinese (China), Chinese (Taiwan), English (Australia),
+  Finnish, French, Galician, German, Greek, Hebrew, Italian, Korean, Lithuanian,
+  Malay, Polish, Portuguese, Portuguese (Brazilian), Russian, Spanish, Swedish,
+  Thai, Ukrainian
+
+0.8.0
+======
+- Increased required intltool version (0.35) (Bug 11180)
+- Use libxfce4ui's versioned help call for the documentation
+- Bugs Fixed
+  - Fallback to GStreamer 0.10 at build time if 1.0 is not available (Bug 11053)
+  - Fix build with GStreamer 0.10 (Bug 11052)
+  - Show preview text in the font selection dialog (Bug 11425)
+  - Clear startup notification when already running (Bug 11487)
+- Translation Updates: Arabic, Asturian, Bulgarian, Chinese (China), Croatian,
+  Czech, Danish, Dutch, English (Australia), Finnish, French, German, Hungarian,
+  Italian, Korean, Malay, Norwegian Bokmal, Polish, Portuguese,
+  Portuguese (Brazilian), Russian, Serbian, Spanish, Thai, Turkish, Ukrainian
+
+0.7.0 (Development Release)
+======
+- New Features
+  - New Clutter video backend (build with --enable-clutter)
+  - Video backend selection from Preferences dialog
+  - New "Go to position" feature
+  - GtkRevealer is now used for the controls with Gtk 3.10+
+  - New "hide-controls-timeout" setting to specify when controls should be hidden 
+- Cleaned up deprecated widgets and callbacks
+- Bugs Fixed
+  - Fixed "value invalid or out of range" errors
+  - Fixed "Source ID not found" errors
+  - Prevent mouse cursor from hiding when dialogs are open
+  - Multimedia keys can now be properly disabled with the Preferences dialog
+  - Fixed "Show Playlist" appearance in the menu and overlay
+  - Fixed playlist file filter
+  - Playback controls can now be always-enabled (Bug 10976)
+  - Fixed subtitles with MKV files (Bug 9880)
+  - Fixed audio cd playback (Bug 10902)
+  - Fixed segmentation fault when sending filenames to existing instance (Bug 10962)
+
+0.6.1
+=======
+- Properly use specified device, use correct URI (lp: #1098323)
+
+0.6.0
+=======
+- Completed port to GTK+3
+  - Remove deprecated GTK+2 items
+  - Use GtkOverlay for player controls
+  - Use symbolic icons for menus, plugins
+- Improved window maximization
+  - Window dimensions are no longer saved when maximizing
+  - Added "window-maximized" setting to xfconf to keep maximization across sessions
+- Rearranged and improved menubar
+  - Renamed "Edit" menu to "Playback"
+  - Renamed "Languages" menu item to "Audio Track"
+  - Added Tools menu
+  - Moved Plugins and Preferences to Tools menu
+  - Added DVD menu (visible only when a DVD or DVD ISO is being played)
+  - Added "Save Playlist" item to Media menu
+  - Added "Contents" item to Help menu
+  - Added "Report Bug" item to Help menu
+- Improved playlist
+  - Use symbolic icons in an inline toolbar
+  - Removed redundant settings button
+  - Added Move Up/Down buttons
+  - Improved search
+- Plugin updates
+  - Added Previous/Next Track menu items to Tray plugin
+  - Added Previous/Next Track menu items to Notification plugin
+  - Added NEW MPRIS2 plugin
+- Other improvements
+  - Updated artwork (background image, icons)
+  - Fixed GStreamer 1.0 support
+  - Added ability to play DVD ISOs from the Open dialog
+  - Plugins now correctly report when they fail to load
+  - Plugin API documentation updates
+- Bugs fixed
+  - Fixed missing option to open DVD from iso (bug #10300)
+  - Fixed allowing a playlist to be sorted and/or items to be moved (bug #10066)
+  - Fixed Remember playlist option in GUI not working (bug #10269)
+  - Fixed Parole showing irritating edge (bug #10081)
+  - Fixed untranslatable strings (bug #10418)
+  - Fixed loading of playlists with relative paths (bug #10436)
+  - Added realmedia video to supported video mimetypes (bug #10434)
+  - Fixed IF/ELSE for plugin installation on multiple platforms (bugs #10142, #10441)
+  - Fixed building with enable-debug=full on some platforms (bug #10525)
+  - Fixed crash for m3u files with all absolute paths
+  - Fixed "Remove Duplicates" functionality.
+
+0.5.0
+=======
+- Fixed potential file name clash in parole extension (bug #9728)
+- Fixed libnotify error on make (bug #9744)
+- Fixed moving show/hide playlist button (bug #9755)
+- Fixed mute button toggling (bug #9760)
+- Fixed playlist manipulation while playlist hidden (bug #9762)
+- Fixed webm file support (bug #9798)
+- Fixed auto-saved playlist saving as UTF-8
+- Fixed playlist menu from opening off-screen
+- Added improved locale name support in audio tracks and subtitles
+- Added gstreamer 1.0 support with --with-gstreamer=0.10|1.0
+- Added additional tooltips
+- Added theming to fullscreen widgets
+- Improved audio cover image loading
+- Improved support for window manager fullscreen command
+- Made codec installer transient for player window
+- Moved history and playlist to .config/xfce4/parole
+
+0.4.0
+=======
+- Fixed build bugs #9219, #9226
+- Fixed fullscreen controls (bug #9270)
+- Fixed screensaver inhibition (bug #7407)
+- Fixed freezing with subtitles (bug #9194)
+- Fixed skipping every second ogg-vorbis in playlist (bug #9562)
+- Added embedded mode (bug #8506)
+- Added missing codec installation (bug #8469)
+- Added custom subtitle management (bug #6731)
+- Added CD and DVD playlist support
+- Added DVD navigation support
+- Added Recent Items in open menu
+- Replaced Stream Properties plugin with AudioBox widget
+- Moved notifications from system tray plugin to notify plugin.
+- Added album artwork and details to notifications.
+- Ported configuration to Xfconf
+- Interface refinements
+- Keyboard shortcut refinements (bug #9317)
+
+0.3.0.3
+=======
+- Maintenance release
+- Fixed --enable-gtk-doc
+- Fixed CD-Drive icon disappearing after drive eject
+- Small interface tweaks to Plugins dialog.
+
+0.3.0.2
+=======
+- Maintenance release
+- Fixed bug that prevented proper distribution
+
+0.3.0.1
+=======
+- Maintenance release
+- Updated build requirements (bug #9197)
+- Fixed installation directory for plugins
+- Fixed compilation of plugin api (bug #9196)
+- Fixed compilation of debug=yes and debug=full
+- Fixed compiling twice (bug #9219)
+
+0.3.0
+=======
+- Replaced libxfce4gui dependencies with libxfce4ui
+- Upgraded GTK interface to GTK 2.20+
+- Revamped, minimalistic interface
+- Replaced playbin with playbin2
+- Improved subtitle/audio track handling
+- Improved keyboard shortcuts
+- Updated application icon
+- Added command line option to enqueue files
+- Cleared warnings due to deprecated functions
+- Fixed many of the existing bugs
+
+0.2.0.1
+=======
+- Automatically detect disc type when parole is started with --device=/dev/sr0 without a uri
+- Make the browser plugin compatible with midori, Makefile was broken.
+- Remove border width from the settings.
+- Fix on disk file check
+- Avoid a Glib warning in the statusbar when filename is null.
+- Support for playing DVD/VCD ISO images from a file.
+- Query stream duration on-ready state always, fixes DVD duration query.
+- Properly handle WriteReady callback.
+- For local media files, check the stream caps only when switching from ready to paused state.
+
+0.2.0
+====
+- Fix the confirmation on delete event.
+- Use g_key_file_get_locale_string to load plugin name and description
+- Fix missing installable include files.
+- Fix unused Gst overlay expose on READY state.
+- Provide a command line to be used to enable/disable xv, X Video support might be missing for some drivers.
+- Handle non local file from the command line.
+- Send the kill signal if the dbus name is not yet registered in the browser plugin.
+- Set the _NET_WM_WINDOW_OPACITY_LOCKED wm hint, so xfwm4 keep us opaque.
+- Grab the focus on the video widget after we get the playing state signal, not     when asking gst to play, this will avoid an expose event on the video widget  that causes the logo to be drawn before the movie frames shows up.
+- Provide an option to Enable/Disable resetting X screen saver counter while playing movies
+- Check for stream type before settings the live bit.
+- Don't use uri as a status bar text for live streams.
+- Added get_stream to the plugin API.
+- Don't popup errors in the browser plugin.
+- Fix seek backwards+add mouse wheel on the volume slider, patches by Enrico Troger.
+
+0.1.99
+====
+- Fix bug in the active plugin saved list.
+- Added translators credit.
+- Fix a memory leak.
+- reload the logo when the theme is changed.
+- Fix compilation with xulrunner 1.9.2.
+- Fix bug #6039 concerning the crash on a virtual box.
+- Fix a variable type causing the cursor to be set invisible on the video
+  widget event if no video is playing.
+/* Browser plugin */
+- Fix buffering info that was displayed in fullscreen mode.
+- Stabilizing the browser plugin.
+
+0.1.98
+====
+- Fix missing signal handler for the mute menu item.
+- Don't hide the controls in full screen when cursor is above
+  the popup window.
+- Respect browser plugin dir installation directory.
+- Support for playlist format in the media browser plugin, that it, the 
+  plugin now gets the data from the browser, save it in a temporary
+  file parse it and play it...
+- Added an option in the media chooser to chooer whether to start
+  playing opened files directly or not (bug #6035).
+
+0.1.96
+====
+- Fix the plugin loader bug, when the a plugin is asking to pack a widget
+  and the plugin loader is not ready (bug #6032).
+- Exit after 60 seconds of inactivity on the browser plugin to avoid
+  any zombie process.
+
+0.1.95
+====
+- Use taglib when compiled to get the media title and display it in
+  the list instead of waiting for a tag message from gst to change
+  the display name while playing.
+- Added -n command line to load parolw without plugins.
+- Added XF86 button handler.
+- Added an option in the media chooser dialog to enable/disable
+  scanning folders recursively for media files
+- Handle CTL_O and XF86XK_OpenURL.
+- Use cdda:// for audio disc, sine cdda:/ doesn't work!
+- Give focus to media list view on GDK_Up and Down.
+- Added an option in the media chooser to replace current playlist 
+  with opened files
+- Hide control full screen popup when switch from a desktop to another.
+- Enter/leave fullscreen on double click on the video widget, thanks
+  for Enrico Troger for the patch.
+- Save stream tags when stream playback finished, should be safer.
+- Added a power manager plugin to inhibit the power manager
+    while playing DVD/VCD/DVB...
+- Added --device command line to be used with cdda:// dvd:// etc...
+- Added browser media player plugin.
+
+0.1.91
+====
+- Don't runref the vis plugin as playbin will remove it on exit (bug #5830).
+- Fix settings dialog displayes in english when locales aren't english (bug #5829).
+- Don't reset XScreenSaver bit when playing audio file, (problem was in the order of calls).
+- Fix some untranslatable strings (bug #5827).
+- Fix desktop file Application Type typo. (Type=Application instead if Type=Application;).
+
+0.1.90
+====
+First release.

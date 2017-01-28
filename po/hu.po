@@ -1,0 +1,1218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Benedek Imre <nucleo@indamail.hu>, 2013-2014
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2010,2012
+# gyeben <gyonkibendeguz@gmail.com>, 2013,2016
+# gyeben <gyonkibendeguz@gmail.com>, 2013
+# Imre Benedek <nucleo at indamail dot hu>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Apps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-11 06:30+0100\n"
+"PO-Revision-Date: 2016-04-01 16:26+0000\n"
+"Last-Translator: gyeben <gyonkibendeguz@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/xfce/xfce-apps/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/interfaces/parole.ui.h:1 ../data/desktop/parole.desktop.in.in.h:1
+#: ../src/parole-player.c:605 ../src/parole-player.c:1515
+#: ../src/parole-about.c:70 ../src/plugins/mpris2/mpris2-provider.c:199
+msgid "Parole Media Player"
+msgstr "Parole médialejátszó"
+
+#: ../data/interfaces/parole.ui.h:2
+msgid "_Media"
+msgstr "_Média"
+
+#: ../data/interfaces/parole.ui.h:3
+msgid "_Open…"
+msgstr "_Megnyitás..."
+
+#: ../data/interfaces/parole.ui.h:4
+msgid "Open _Location…"
+msgstr "_Hely megnyitása..."
+
+#: ../data/interfaces/parole.ui.h:5
+msgid "Open _Recent"
+msgstr "_Legutóbbi megnyitása"
+
+#: ../data/interfaces/parole.ui.h:6
+msgid "_Save Playlist…"
+msgstr "Lejátszási lista _mentése..."
+
+#: ../data/interfaces/parole.ui.h:7 ../src/parole-disc.c:112
+#: ../src/parole-disc.c:154
+msgid "Insert Disc"
+msgstr "Helyezzen be lemezt"
+
+#. * Exit
+#: ../data/interfaces/parole.ui.h:8 ../src/plugins/tray/tray-provider.c:179
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: ../data/interfaces/parole.ui.h:9
+msgid "_Playback"
+msgstr "_Lejátszás"
+
+#: ../data/interfaces/parole.ui.h:10
+msgid "_Repeat"
+msgstr "_Ismétlés"
+
+#: ../data/interfaces/parole.ui.h:11
+msgid "_Shuffle"
+msgstr "_Keverés"
+
+#. Create dialog
+#: ../data/interfaces/parole.ui.h:12 ../src/parole-player.c:2860
+msgid "Go to position"
+msgstr "Ugrás helyzethez"
+
+#: ../data/interfaces/parole.ui.h:13
+msgid "_DVD"
+msgstr "_DVD"
+
+#: ../data/interfaces/parole.ui.h:14
+msgid "_DVD Menu"
+msgstr "_DVD menü"
+
+#: ../data/interfaces/parole.ui.h:15
+msgid "_Title Menu"
+msgstr "_Cím menü"
+
+#: ../data/interfaces/parole.ui.h:16
+msgid "_Audio Menu"
+msgstr "_Hang menü"
+
+#: ../data/interfaces/parole.ui.h:17
+msgid "A_ngle Menu"
+msgstr "N_ézőszög menü"
+
+#: ../data/interfaces/parole.ui.h:18
+msgid "_Chapters"
+msgstr "_Fejezetek"
+
+#: ../data/interfaces/parole.ui.h:19
+msgid "_Chapter Menu"
+msgstr "_Fejezet menü"
+
+#: ../data/interfaces/parole.ui.h:20
+msgid "_Audio"
+msgstr "_Hang"
+
+#: ../data/interfaces/parole.ui.h:21
+msgid "_Audio Track"
+msgstr "_Hangsáv"
+
+#: ../data/interfaces/parole.ui.h:22 ../src/parole-player.c:831
+msgid "Empty"
+msgstr "Üres"
+
+#: ../data/interfaces/parole.ui.h:23
+msgid "Volume _Up"
+msgstr "Hangerő _fel"
+
+#: ../data/interfaces/parole.ui.h:24
+msgid "Volume _Down"
+msgstr "Hangerő _le"
+
+#: ../data/interfaces/parole.ui.h:25
+msgid "_Mute"
+msgstr "_Némítás"
+
+#: ../data/interfaces/parole.ui.h:26
+msgid "_Video"
+msgstr "_Videó"
+
+#: ../data/interfaces/parole.ui.h:27 ../src/parole-player.c:2050
+#: ../src/parole-player.c:2164
+msgid "_Fullscreen"
+msgstr "_Teljes képernyő"
+
+#: ../data/interfaces/parole.ui.h:28
+msgid "_Aspect Ratio"
+msgstr "_Méretarány"
+
+#: ../data/interfaces/parole.ui.h:29 ../src/parole-player.c:759
+msgid "None"
+msgstr "Nincs"
+
+#: ../data/interfaces/parole.ui.h:30
+msgid "Auto"
+msgstr "Automatikus"
+
+#: ../data/interfaces/parole.ui.h:31
+msgid "Square"
+msgstr "Négyzet"
+
+#: ../data/interfaces/parole.ui.h:32
+msgid "4:3 (TV)"
+msgstr "4:3 (TV)"
+
+#: ../data/interfaces/parole.ui.h:33
+msgid "16:9 (Widescreen)"
+msgstr "16:9 (szélesvásznú)"
+
+#: ../data/interfaces/parole.ui.h:34
+msgid "20:9 (DVB)"
+msgstr "20:9 (DVB)"
+
+#: ../data/interfaces/parole.ui.h:35
+msgid "_Subtitles"
+msgstr "_Feliratok"
+
+#: ../data/interfaces/parole.ui.h:36
+msgid "Select Text Subtitles…"
+msgstr "Feliratok kiválasztása..."
+
+#: ../data/interfaces/parole.ui.h:37
+msgid "_Tools"
+msgstr "_Eszközök"
+
+#: ../data/interfaces/parole.ui.h:38
+msgid "P_lugins"
+msgstr "B_ővítmények"
+
+#: ../data/interfaces/parole.ui.h:39
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+#: ../data/interfaces/parole.ui.h:40
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../data/interfaces/parole.ui.h:41
+msgid "_Report a Bug…"
+msgstr "Hiba _bejelentése..."
+
+#: ../data/interfaces/parole.ui.h:42
+msgid "Display Parole user manual"
+msgstr "A Parole felhasználói kézikönyvének megjelenítése"
+
+#: ../data/interfaces/parole.ui.h:43
+msgid "_Contents"
+msgstr "_Tartalom"
+
+#: ../data/interfaces/parole.ui.h:44
+msgid "_About"
+msgstr "_Névjegy"
+
+#: ../data/interfaces/parole.ui.h:45
+msgid "<span color='#F4F4F4'><b><big>Unknown Song</big></b></span>"
+msgstr "<span color='#F4F4F4'><b><big>Ismeretlen dal</big></b></span>"
+
+#: ../data/interfaces/parole.ui.h:46
+msgid ""
+"<big><span color='#BBBBBB'><i>on</i></span> <span color='#F4F4F4'>Unknown "
+"Album</span></big>"
+msgstr "<big><span color='#BBBBBB'><i></i></span> <span color='#F4F4F4'>Ismeretlen albumon</span></big>"
+
+#: ../data/interfaces/parole.ui.h:47
+msgid ""
+"<big><span color='#BBBBBB'><i>by</i></span> <span color='#F4F4F4'>Unknown "
+"Artist</span></big>"
+msgstr "<big><span color='#F4F4F4'>Ismeretlen előadó</span> <span color='#BBBBBB'><i>által</i></span></big>"
+
+#: ../data/interfaces/parole.ui.h:48
+msgid "0:00"
+msgstr "0:00"
+
+#: ../data/interfaces/parole.ui.h:50
+#, no-c-format
+msgid "Buffering (0%)"
+msgstr "Pufferelés (0%)"
+
+#: ../data/interfaces/mediachooser.ui.h:1
+msgid "Open Media Files"
+msgstr "Médiafájlok megnyitása"
+
+#: ../data/interfaces/playlist.ui.h:1
+#: ../data/interfaces/parole-settings.ui.h:27 ../src/parole-medialist.c:806
+#: ../src/parole-medialist.c:849 ../src/parole-player.c:3274
+msgid "Playlist"
+msgstr "Lejátszólista"
+
+#: ../data/interfaces/playlist.ui.h:2
+msgid "Disc Playlist"
+msgstr "Lemez lejátszólista"
+
+#: ../data/interfaces/playlist.ui.h:3
+msgid "Add to playlist…"
+msgstr "Hozzáadás lejátszási listához..."
+
+#: ../data/interfaces/playlist.ui.h:4
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: ../data/interfaces/playlist.ui.h:5
+msgid "Remove selected media"
+msgstr "Kiválasztott média eltávolítása"
+
+#: ../data/interfaces/playlist.ui.h:6
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: ../data/interfaces/playlist.ui.h:7
+msgid "Clear playlist"
+msgstr "Lejátszólista törlése"
+
+#: ../data/interfaces/playlist.ui.h:8
+msgid "Clear"
+msgstr "Törlés"
+
+#: ../data/interfaces/playlist.ui.h:9
+msgid "Repeat"
+msgstr "Ismétlés"
+
+#: ../data/interfaces/playlist.ui.h:10
+msgid "Shuffle"
+msgstr "Keverés"
+
+#: ../data/interfaces/playlist.ui.h:11
+msgid "Move Up"
+msgstr "Mozgatás fel"
+
+#: ../data/interfaces/playlist.ui.h:12
+msgid "Move Down"
+msgstr "Mozgatás le"
+
+#: ../data/interfaces/playlist.ui.h:13
+msgid "Replace playlist when opening files"
+msgstr "Lejátszólista cseréje fájlok megnyitásakor"
+
+#: ../data/interfaces/playlist.ui.h:14
+msgid "Play opened files"
+msgstr "Megnyitott fájlok lejátszása"
+
+#: ../data/interfaces/playlist.ui.h:15
+#: ../data/interfaces/parole-settings.ui.h:25
+msgid "Remember playlist"
+msgstr "Lejátszólista megjegyzése"
+
+#: ../data/interfaces/plugins.ui.h:1
+msgid "Parole Plugins"
+msgstr "Parole bővítmények"
+
+#: ../data/interfaces/plugins.ui.h:2
+msgid "Extend your media player"
+msgstr "A médialejátszó funkcióinak kibővítése"
+
+#: ../data/interfaces/plugins.ui.h:3
+msgid "Plugin"
+msgstr "Bővítmény"
+
+#: ../data/interfaces/plugins.ui.h:4
+msgid "<b>Description</b>"
+msgstr "<b>Leírás</b>"
+
+#: ../data/interfaces/plugins.ui.h:5
+msgid "<b>Author</b>"
+msgstr "<b>Szerző</b>"
+
+#: ../data/interfaces/plugins.ui.h:6
+msgid "Visit Website"
+msgstr "Honlap felkeresése"
+
+#: ../data/interfaces/parole-settings.ui.h:1
+msgid "X Window System (X11/XShm/Xv)"
+msgstr "X Window System (X11/XShm/Xv)"
+
+#: ../data/interfaces/parole-settings.ui.h:2
+msgid "X Window System (No Xv)"
+msgstr "X Window System (nem Xv)"
+
+#: ../data/interfaces/parole-settings.ui.h:3
+msgid "Parole Settings"
+msgstr "Parole beállítások"
+
+#: ../data/interfaces/parole-settings.ui.h:4
+msgid "Configure your media player"
+msgstr "A médialejátszó konfigurálása"
+
+#: ../data/interfaces/parole-settings.ui.h:5
+msgid "Disable screensaver when playing movies"
+msgstr "Képernyővédő kikapcsolása filmek lejátszásakor"
+
+#: ../data/interfaces/parole-settings.ui.h:6
+msgid "<b>Screensaver</b>"
+msgstr "<b>Képernyővédő</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:7
+msgid "Show visual effects when an audio file is played"
+msgstr "Vizuális effektek megjelenítése hangfájl lejátszásakor"
+
+#: ../data/interfaces/parole-settings.ui.h:8
+msgid "Visualization type:"
+msgstr "Vizualizáció típusa:"
+
+#: ../data/interfaces/parole-settings.ui.h:9
+msgid "<b>Audio Visualization</b>"
+msgstr "<b>Hang vizualizáció</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:10
+msgid "Enable keyboard multimedia keys"
+msgstr "Multimédiás billentyűk engedélyezése"
+
+#: ../data/interfaces/parole-settings.ui.h:11
+msgid "<b>Keyboard</b>"
+msgstr "<b>Billentyűzet</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:12
+msgid "General"
+msgstr "Általános"
+
+#: ../data/interfaces/parole-settings.ui.h:13
+msgid "Please restart Parole for this change to take effect."
+msgstr "Indítsa újra a Parolét a változtatás érvényesítéséhez!"
+
+#: ../data/interfaces/parole-settings.ui.h:14
+msgid "<b>Video Output</b>"
+msgstr "<b>Video kimenet</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:15
+msgid "Brightness:"
+msgstr "Fényerő:"
+
+#: ../data/interfaces/parole-settings.ui.h:16
+msgid "Contrast:"
+msgstr "Kontraszt:"
+
+#: ../data/interfaces/parole-settings.ui.h:17
+msgid "Hue:"
+msgstr "Színárnyalat:"
+
+#: ../data/interfaces/parole-settings.ui.h:18
+msgid "Saturation:"
+msgstr "Telítettség:"
+
+#: ../data/interfaces/parole-settings.ui.h:19
+msgid "Reset to defaults"
+msgstr "Visszaállítás alapértékekre"
+
+#: ../data/interfaces/parole-settings.ui.h:20
+msgid "<b>Color Balance</b>"
+msgstr "<b>Színegyensúly</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:21
+msgid "Display"
+msgstr "Megjelenítés"
+
+#: ../data/interfaces/parole-settings.ui.h:22
+msgid "Always replace playlist with opened files"
+msgstr "Lejátszólista cseréje a megnyitott fájlokkal"
+
+#: ../data/interfaces/parole-settings.ui.h:23
+msgid "Check and remove duplicate media entries"
+msgstr "Duplikált médiabejegyzések keresése és eltávolítása"
+
+#: ../data/interfaces/parole-settings.ui.h:24
+msgid "Start playing opened files"
+msgstr "Megnyitott fájlok lejátszásának megkezdése"
+
+#: ../data/interfaces/parole-settings.ui.h:26
+msgid "<b>Playlist Settings</b>"
+msgstr "<b>Lejátszólista beállítások</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:28
+msgid "Automatically show subtitles when playing movie file"
+msgstr "Feliratok automatikus megjelenítése filmek lejátszásakor"
+
+#: ../data/interfaces/parole-settings.ui.h:29
+msgid "Font:"
+msgstr "Betűkészlet:"
+
+#: ../data/interfaces/parole-settings.ui.h:30
+msgid "Encoding:"
+msgstr "Kódolás: "
+
+#: ../data/interfaces/parole-settings.ui.h:31
+msgid "<b>Subtitle Settings</b>"
+msgstr "<b>Felirat beállítások</b>"
+
+#: ../data/interfaces/parole-settings.ui.h:32
+msgid "Subtitles"
+msgstr "Feliratok"
+
+#: ../data/interfaces/save-playlist.ui.h:1
+msgid "By Extension"
+msgstr "Kiterjesztés szerint"
+
+#: ../data/interfaces/save-playlist.ui.h:2
+msgid "Save Playlist as…"
+msgstr "Lejátszási lista mentése másként..."
+
+#: ../data/interfaces/save-playlist.ui.h:3
+msgid "File Type"
+msgstr "Fájltípus"
+
+#: ../data/interfaces/save-playlist.ui.h:4
+msgid "Extension"
+msgstr "Kiterjesztés"
+
+#: ../data/interfaces/save-playlist.ui.h:5
+msgid "Select File Types (By Extension)"
+msgstr "Fájltípusok kiválasztása (kiterjesztés szerint)"
+
+#: ../data/interfaces/open-location.ui.h:1
+msgid "Open Network Location"
+msgstr "Hálózati hely megnyitása"
+
+#: ../data/interfaces/open-location.ui.h:2 ../src/parole-open-location.c:193
+msgid "Clear History"
+msgstr "Előzmények törlése"
+
+#: ../data/interfaces/open-location.ui.h:3
+msgid "<big><b>Open Network Location</b></big>"
+msgstr "<big><b>Hálózati hely megnyitása</b></big>"
+
+#: ../data/desktop/parole.desktop.in.in.h:2
+msgid "Play your media"
+msgstr "Média lejátszása"
+
+#: ../data/desktop/parole.desktop.in.in.h:3
+msgid "Play/Pause"
+msgstr "Lejátszás/Szünet"
+
+#: ../data/desktop/parole.desktop.in.in.h:4 ../src/parole-player.c:3424
+#: ../src/plugins/notify/notify-provider.c:204
+msgid "Previous Track"
+msgstr "Előző szám"
+
+#: ../data/desktop/parole.desktop.in.in.h:5 ../src/parole-player.c:3442
+#: ../src/plugins/notify/notify-provider.c:217
+msgid "Next Track"
+msgstr "Következő szám"
+
+#: ../data/appdata/parole.appdata.xml.in.h:1
+msgid ""
+"Parole is a modern simple media player based on the GStreamer framework and "
+"written to fit well in the Xfce desktop. It is designed with simplicity, "
+"speed and resource usage in mind."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:2
+msgid ""
+"Parole features playback of local media files, including video with "
+"subtitles support, Audio CDs, DVDs, and live streams. Parole is also "
+"extensible via plugins."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:3
+msgid ""
+"This release improves the build process and includes several bug fixes. This"
+" new stable release is a recommended upgrade for all users."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:4
+msgid ""
+"This unstable development release adds the new clutter backend and cleans up"
+" deprecated Gtk3 symbols. It also adds a \"go to position\" feature and "
+"several bugs have been addressed."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:5
+msgid "This release fixes a problem with detecting DVD drive locations."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:6
+msgid ""
+"This release features the completed transition to the Gtk+3 toolkit, "
+"improvements in the user-interface (more streamlined menus), better "
+"playlists. Furthermore existing plugins have been improved and a new one has"
+" been added (MPRIS2). Most of the artwork has been updated for this release "
+"and we use the GStreamer1.0 framework now by default."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:7
+msgid ""
+"This unstable development release features mostly bugfixes and introduces "
+"the new MPRIS2 plugin."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:8
+msgid ""
+"This is a bugfix release which fixes the loading of playlists with relative "
+"paths, improves the file-filters for audio/video mimetypes and fixes the "
+"\"Remove duplicates\" functionality."
+msgstr ""
+
+#: ../data/appdata/parole.appdata.xml.in.h:9
+msgid ""
+"This unstable development release features the complete port to the Gtk+3 "
+"toolkit, improvements in the user-interface (more streamlined menus), better"
+" playlists. It also brings updated artwork, GStreamer1.0 support, improved "
+"plugins and the occasional bugfix."
+msgstr ""
+
+#: ../src/common/parole-common.c:88
+msgid "Message"
+msgstr "Üzenet"
+
+#: ../src/common/parole-common.c:93
+msgid "Error"
+msgstr "Hiba"
+
+#: ../src/gst/parole-gst.c:1272 ../src/parole-medialist.c:393
+#, c-format
+msgid "Track %i"
+msgstr "%d. szám"
+
+#: ../src/gst/parole-gst.c:1275
+msgid "Audio CD"
+msgstr "Hang CD"
+
+#: ../src/gst/parole-gst.c:1515
+msgid "Additional software is required."
+msgstr "Kiegészítő szoftver szükséges."
+
+#: ../src/gst/parole-gst.c:1520
+msgid "Don't Install"
+msgstr "Telepítés mellőzése"
+
+#: ../src/gst/parole-gst.c:1522
+msgid "Install"
+msgstr "Telepítés"
+
+#: ../src/gst/parole-gst.c:1525
+msgid "OK"
+msgstr "OK"
+
+#: ../src/gst/parole-gst.c:1532
+#, c-format
+msgid ""
+"Parole needs <b>%s</b> to play this file.\n"
+"It can be installed automatically."
+msgstr "<b>%s</b> szükséges a fájl lejátszásához.\nEz automatikusan telepíthető."
+
+#: ../src/gst/parole-gst.c:1535
+#, c-format
+msgid "Parole needs <b>%s</b> to play this file."
+msgstr "<b>%s</b> szükséges a fájl lejátszásához."
+
+#: ../src/gst/parole-gst.c:1946
+msgid "The stream is taking too much time to load"
+msgstr "A műsor betöltése túl sokáig tart"
+
+#: ../src/gst/parole-gst.c:1947
+msgid "Do you want to continue loading or stop?"
+msgstr "Folytatni szeretné a betöltést vagy megállítani?"
+
+#: ../src/gst/parole-gst.c:1948
+msgid "Stop"
+msgstr "Leállítás"
+
+#: ../src/gst/parole-gst.c:1949
+msgid "Continue"
+msgstr "Folytatás"
+
+#: ../src/gst/parole-gst.c:2133
+msgid "GStreamer Error"
+msgstr "GStreamer hiba"
+
+#: ../src/gst/parole-gst.c:2134
+msgid "Parole Media Player cannot start."
+msgstr "A Parole médialejátszó nem tud elindulni."
+
+#: ../src/gst/parole-gst.c:2165 ../src/gst/parole-gst.c:2181
+#: ../src/gst/parole-gst.c:2213
+#, c-format
+msgid "Unable to load \"%s\" plugin, check your GStreamer installation."
+msgstr "Nem tölthető be a(z) „%s” bővítmény, ellenőrizze a GStreamer telepítést."
+
+#: ../src/gst/parole-gst.c:2845 ../src/gst/parole-gst.c:2851
+#, c-format
+msgid "Audio Track #%d"
+msgstr "%d. hangsáv"
+
+#: ../src/gst/parole-gst.c:2895 ../src/gst/parole-gst.c:2901
+#, c-format
+msgid "Subtitle #%d"
+msgstr "%d. felirat"
+
+#: ../src/main.c:59
+#, c-format
+msgid ""
+"\n"
+"Parole Media Player %s\n"
+"\n"
+"Part of the Xfce Goodies Project\n"
+"http://goodies.xfce.org\n"
+"\n"
+"Licensed under the GNU GPL.\n"
+"\n"
+"Please report bugs to <http://bugzilla.xfce.org/>.\n"
+"\n"
+msgstr "\nParole médialejátszó %s\n\nAz Xfce Goodies Project része\nhttp://goodies.xfce.org\n\nGNU GPL licenc alatt.\n\nA hibákat kérjük itt jelentse: <http://bugzilla.xfce.org/>.\n\n"
+
+#: ../src/main.c:241
+msgid "Open a new instance"
+msgstr "Új példány megnyitása"
+
+#: ../src/main.c:242
+msgid "Do not load plugins"
+msgstr "Ne töltse be a bővítményeket"
+
+#: ../src/main.c:243
+msgid "Set Audio-CD/VCD/DVD device path"
+msgstr "Hang CD/VCD/DVD eszköz útvonalának beállítása"
+
+#: ../src/main.c:244
+msgid "Start in embedded mode"
+msgstr "Indítás beágyazott módban"
+
+#: ../src/main.c:245
+msgid "Start in fullscreen mode"
+msgstr "Indítás teljes képernyőn"
+
+#: ../src/main.c:246
+msgid "Play or pause if already playing"
+msgstr "Lejátszás vagy szünet, ha már lejátszik"
+
+#: ../src/main.c:247
+msgid "Next track"
+msgstr "Következő szám"
+
+#: ../src/main.c:248
+msgid "Previous track"
+msgstr "Előző szám"
+
+#: ../src/main.c:249
+msgid "Raise volume"
+msgstr "Hangerő növelése"
+
+#: ../src/main.c:250
+msgid "Lower volume"
+msgstr "Hangerő csökkentése"
+
+#: ../src/main.c:251
+msgid "Mute volume"
+msgstr "Hangerő némítása"
+
+#: ../src/main.c:252
+msgid "Unmute (restore) volume"
+msgstr "Hangerő visszaállítása"
+
+#: ../src/main.c:253
+msgid "Add files to playlist"
+msgstr "Fájlok hozzáadása a lejátszólistához"
+
+#: ../src/main.c:254
+msgid "Print version information and exit"
+msgstr "Verzióinformáció kiírása és kilépés"
+
+#: ../src/main.c:256
+msgid "Media to play"
+msgstr "Lejátszandó média"
+
+#: ../src/main.c:279
+msgid "[FILES...] - Play movies and songs"
+msgstr "[FÁJLOK...] - Filmek és dalok lejátszása"
+
+#: ../src/main.c:291
+#, c-format
+msgid "Type %s --help to list all available command line options\n"
+msgstr "Az elérhető kapcsolók listájáért adja ki a(z) %s --help parancsot\n"
+
+#: ../src/main.c:309
+#, c-format
+msgid "Parole is already running, use -i to open a new instance\n"
+msgstr "A Parole már fut, új példány nyitásához használja a -i kapcsolót\n"
+
+#: ../src/parole-mediachooser.c:247 ../src/parole-player.c:1053
+msgid "All files"
+msgstr "Minden fájl"
+
+#: ../src/parole-medialist.c:218 ../src/parole-medialist.c:1588
+#, c-format
+msgid "Playlist (%i item)"
+msgid_plural "Playlist (%i items)"
+msgstr[0] "Lejátszólista (%i elem)"
+msgstr[1] "Lejátszólista (%i elem)"
+
+#: ../src/parole-medialist.c:223 ../src/parole-medialist.c:1590
+#, c-format
+msgid "Playlist (%i chapter)"
+msgid_plural "Playlist (%i chapters)"
+msgstr[0] "Lejátszólista (%i fejezet)"
+msgstr[1] "Lejátszólista (%i fejezet)"
+
+#: ../src/parole-medialist.c:409 ../src/parole-player.c:738
+#, c-format
+msgid "Chapter %i"
+msgstr "Fejezet %i"
+
+#: ../src/parole-medialist.c:698
+msgid "Permission denied"
+msgstr "Hozzáférés megtagadva"
+
+#: ../src/parole-medialist.c:700
+msgid "Error saving playlist file"
+msgstr "Hiba a lejátszólistafájl mentésekor"
+
+#: ../src/parole-medialist.c:712
+msgid "Unknown playlist format"
+msgstr "Ismeretlen lejátszólista-formátum"
+
+#: ../src/parole-medialist.c:713
+msgid "Please choose a supported playlist format"
+msgstr "Válasszon támogatott lejátszólista formátumot"
+
+#: ../src/parole-medialist.c:767 ../src/parole-plugins-manager.c:369
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: ../src/parole-medialist.c:856
+msgid "M3U Playlists"
+msgstr "M3U lejátszólisták"
+
+#: ../src/parole-medialist.c:864
+msgid "PLS Playlists"
+msgstr "PLS lejátszólisták"
+
+#: ../src/parole-medialist.c:872
+msgid "Advanced Stream Redirector"
+msgstr "ASX"
+
+#: ../src/parole-medialist.c:880
+msgid "Shareable Playlist"
+msgstr "Megosztható lejátszólista"
+
+#. Clear
+#: ../src/parole-medialist.c:1219
+msgid "Open Containing Folder"
+msgstr "Tartalmazó mappa megnyitása"
+
+#: ../src/parole-player.c:535
+msgid "Hide Playlist"
+msgstr "Lejátszólista elrejtése"
+
+#: ../src/parole-player.c:535 ../src/parole-player.c:3484
+msgid "Show Playlist"
+msgstr "Lejátszólista megjelenítése"
+
+#. Build the FileChooser dialog for subtitle selection.
+#: ../src/parole-player.c:1017
+msgid "Select Subtitle File"
+msgstr "Válasszon felirat fájlt"
+
+#: ../src/parole-player.c:1022 ../src/parole-player.c:1226
+#: ../src/parole-player.c:2863 ../src/plugins/tray/tray-provider.c:338
+msgid "Cancel"
+msgstr "Mégse"
+
+#: ../src/parole-player.c:1025
+msgid "Open"
+msgstr "Megnyitás"
+
+#: ../src/parole-player.c:1041
+msgid "Subtitle Files"
+msgstr "Felirat fájlok"
+
+#: ../src/parole-player.c:1222 ../src/parole-player.c:1230
+msgid "Clear Recent Items"
+msgstr "Legutóbbi elemek törlése"
+
+#: ../src/parole-player.c:1224
+msgid ""
+"Are you sure you wish to clear your recent items history?  This cannot be "
+"undone."
+msgstr "Biztos, hogy törölni kívánja a legutóbbi elemeket? Ezt nem lehet visszavonni."
+
+#: ../src/parole-player.c:1323 ../src/parole-player.c:1461
+msgid "Media stream is not seekable"
+msgstr "A médiafolyamban nem lehet tekerni"
+
+#: ../src/parole-player.c:1334
+msgid "Play"
+msgstr "Lejátszás"
+
+#: ../src/parole-player.c:1337
+msgid "Pause"
+msgstr "Szünet"
+
+#: ../src/parole-player.c:1833
+msgid "GStreamer backend error"
+msgstr "GStreamer backend hiba"
+
+#: ../src/parole-player.c:1881 ../src/parole-player.c:1883
+#: ../src/parole-player.c:1889
+msgid "on"
+msgstr "ezen:"
+
+#: ../src/parole-player.c:1889 ../src/plugins/notify/notify-provider.c:145
+msgid "Unknown Album"
+msgstr "Ismeretlen album"
+
+#: ../src/parole-player.c:1896 ../src/parole-player.c:1900
+msgid "by"
+msgstr "általa:"
+
+#: ../src/parole-player.c:1900 ../src/plugins/notify/notify-provider.c:147
+msgid "Unknown Artist"
+msgstr "Ismeretlen előadó"
+
+#: ../src/parole-player.c:1934
+msgid "Buffering"
+msgstr "Pufferelés"
+
+#: ../src/parole-player.c:2051 ../src/parole-player.c:3459
+msgid "Fullscreen"
+msgstr "Teljes képernyő"
+
+#: ../src/parole-player.c:2064
+msgid "Leave _Fullscreen"
+msgstr "T_eljes képernyő elhagyása"
+
+#: ../src/parole-player.c:2065
+msgid "Leave Fullscreen"
+msgstr "Teljes képernyő elhagyása"
+
+#. Play menu item
+#. * Play pause
+#: ../src/parole-player.c:2132 ../src/plugins/tray/tray-provider.c:130
+msgid "_Pause"
+msgstr "_Szünet"
+
+#: ../src/parole-player.c:2132 ../src/plugins/tray/tray-provider.c:130
+msgid "_Play"
+msgstr "_Lejátszás"
+
+#. * Previous item in playlist.
+#: ../src/parole-player.c:2146
+msgid "_Previous"
+msgstr "_Előző"
+
+#. * Next item in playlist.
+#: ../src/parole-player.c:2155
+msgid "_Next"
+msgstr "_Következő"
+
+#. * Un/Full screen
+#: ../src/parole-player.c:2164
+msgid "_Leave Fullscreen"
+msgstr "T_eljes képernyő elhagyása"
+
+#. * Un/Hide menubar
+#: ../src/parole-player.c:2178
+msgid "Show menubar"
+msgstr "Menüsor megjelenítése"
+
+#: ../src/parole-player.c:2438
+msgid "Mute"
+msgstr "Némítás"
+
+#: ../src/parole-player.c:2443
+msgid "Unmute"
+msgstr "Némítás visszavonása"
+
+#: ../src/parole-player.c:2832
+msgid "Unable to open default web browser"
+msgstr "Az alapértelmezett webböngésző nem nyitható meg"
+
+#: ../src/parole-player.c:2834
+msgid "Please go to http://docs.xfce.org/apps/parole/bugs to report your bug."
+msgstr "Kérjük nyissa meg a http://docs.xfce.org/apps/parole/bugs oldalt a hiba jelentéséhez!"
+
+#: ../src/parole-player.c:2864
+msgid "Go"
+msgstr ""
+
+#: ../src/parole-player.c:2877
+msgid "Position:"
+msgstr "Helyzet"
+
+#. Clear Recent Menu Item
+#: ../src/parole-player.c:3315
+msgid "_Clear recent items…"
+msgstr "Legutóbbi elemek _törlése..."
+
+#: ../src/parole-player.c:3654
+msgid "Audio Track:"
+msgstr "Hangsáv:"
+
+#: ../src/parole-player.c:3673
+msgid "Subtitles:"
+msgstr "Feliratok:"
+
+#. Add a close button to the Infobar
+#: ../src/parole-player.c:3679 ../src/plugins/tray/tray-provider.c:273
+msgid "Close"
+msgstr "Bezárás"
+
+#: ../src/parole-about.c:76
+msgid "translator-credits"
+msgstr "Benedek Imre <nucleo at indamail dot hu>\nKelemen Gábor <kelemeng at gnome dot hu>"
+
+#: ../src/parole-about.c:79
+msgid "Visit Parole website"
+msgstr "A Parole honlapjának felkeresése"
+
+#: ../src/parole-conf-dialog.c:313
+msgid "Clutter (OpenGL)"
+msgstr ""
+
+#: ../src/parole-disc.c:114
+msgid "Play Disc"
+msgstr "Lemez lejátszása"
+
+#: ../src/parole-subtitle-encoding.c:165
+msgid "Current Locale"
+msgstr "Jelenlegi területi beállítás"
+
+#: ../src/parole-subtitle-encoding.c:168 ../src/parole-subtitle-encoding.c:170
+#: ../src/parole-subtitle-encoding.c:172 ../src/parole-subtitle-encoding.c:174
+msgid "Arabic"
+msgstr "Arab"
+
+#: ../src/parole-subtitle-encoding.c:177
+msgid "Armenian"
+msgstr "Örmény"
+
+#: ../src/parole-subtitle-encoding.c:180 ../src/parole-subtitle-encoding.c:182
+#: ../src/parole-subtitle-encoding.c:184
+msgid "Baltic"
+msgstr "Balti"
+
+#: ../src/parole-subtitle-encoding.c:187
+msgid "Celtic"
+msgstr "Kelta"
+
+#: ../src/parole-subtitle-encoding.c:190 ../src/parole-subtitle-encoding.c:192
+#: ../src/parole-subtitle-encoding.c:194 ../src/parole-subtitle-encoding.c:196
+msgid "Central European"
+msgstr "Közép-európai"
+
+#: ../src/parole-subtitle-encoding.c:199 ../src/parole-subtitle-encoding.c:201
+#: ../src/parole-subtitle-encoding.c:203 ../src/parole-subtitle-encoding.c:205
+msgid "Chinese Simplified"
+msgstr "Egyszerűsített kínai"
+
+#: ../src/parole-subtitle-encoding.c:208 ../src/parole-subtitle-encoding.c:210
+#: ../src/parole-subtitle-encoding.c:212
+msgid "Chinese Traditional"
+msgstr "Hagyományos kínai"
+
+#: ../src/parole-subtitle-encoding.c:215
+msgid "Croatian"
+msgstr "Horvát"
+
+#: ../src/parole-subtitle-encoding.c:218 ../src/parole-subtitle-encoding.c:220
+#: ../src/parole-subtitle-encoding.c:222 ../src/parole-subtitle-encoding.c:224
+#: ../src/parole-subtitle-encoding.c:226 ../src/parole-subtitle-encoding.c:228
+msgid "Cyrillic"
+msgstr "Cirill"
+
+#: ../src/parole-subtitle-encoding.c:231
+msgid "Cyrillic/Russian"
+msgstr "Cirill/orosz"
+
+#: ../src/parole-subtitle-encoding.c:234 ../src/parole-subtitle-encoding.c:236
+msgid "Cyrillic/Ukrainian"
+msgstr "Cirill/ukrán"
+
+#: ../src/parole-subtitle-encoding.c:239
+msgid "Georgian"
+msgstr "Grúz"
+
+#: ../src/parole-subtitle-encoding.c:242 ../src/parole-subtitle-encoding.c:244
+#: ../src/parole-subtitle-encoding.c:246
+msgid "Greek"
+msgstr "Görög"
+
+#: ../src/parole-subtitle-encoding.c:249
+msgid "Gujarati"
+msgstr "Gudzsarati"
+
+#: ../src/parole-subtitle-encoding.c:252
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../src/parole-subtitle-encoding.c:255 ../src/parole-subtitle-encoding.c:257
+#: ../src/parole-subtitle-encoding.c:259 ../src/parole-subtitle-encoding.c:261
+msgid "Hebrew"
+msgstr "Héber"
+
+#: ../src/parole-subtitle-encoding.c:264
+msgid "Hebrew Visual"
+msgstr "Héber (vizuális)"
+
+#: ../src/parole-subtitle-encoding.c:267
+msgid "Hindi"
+msgstr "Hindi"
+
+#: ../src/parole-subtitle-encoding.c:270
+msgid "Icelandic"
+msgstr "Izlandi"
+
+#: ../src/parole-subtitle-encoding.c:273 ../src/parole-subtitle-encoding.c:275
+#: ../src/parole-subtitle-encoding.c:277
+msgid "Japanese"
+msgstr "Japán"
+
+#: ../src/parole-subtitle-encoding.c:280 ../src/parole-subtitle-encoding.c:282
+#: ../src/parole-subtitle-encoding.c:284 ../src/parole-subtitle-encoding.c:286
+msgid "Korean"
+msgstr "Koreai"
+
+#: ../src/parole-subtitle-encoding.c:289
+msgid "Nordic"
+msgstr "Északi"
+
+#: ../src/parole-subtitle-encoding.c:292
+msgid "Persian"
+msgstr "Perzsa"
+
+#: ../src/parole-subtitle-encoding.c:295 ../src/parole-subtitle-encoding.c:297
+msgid "Romanian"
+msgstr "Román"
+
+#: ../src/parole-subtitle-encoding.c:300
+msgid "South European"
+msgstr "Dél-európai"
+
+#: ../src/parole-subtitle-encoding.c:303
+msgid "Thai"
+msgstr "Thai"
+
+#: ../src/parole-subtitle-encoding.c:306 ../src/parole-subtitle-encoding.c:308
+#: ../src/parole-subtitle-encoding.c:310 ../src/parole-subtitle-encoding.c:312
+msgid "Turkish"
+msgstr "Török"
+
+#: ../src/parole-subtitle-encoding.c:315 ../src/parole-subtitle-encoding.c:317
+#: ../src/parole-subtitle-encoding.c:319 ../src/parole-subtitle-encoding.c:321
+#: ../src/parole-subtitle-encoding.c:323
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../src/parole-subtitle-encoding.c:326 ../src/parole-subtitle-encoding.c:328
+#: ../src/parole-subtitle-encoding.c:330 ../src/parole-subtitle-encoding.c:332
+#: ../src/parole-subtitle-encoding.c:334
+msgid "Western"
+msgstr "Nyugati"
+
+#: ../src/parole-subtitle-encoding.c:337 ../src/parole-subtitle-encoding.c:339
+#: ../src/parole-subtitle-encoding.c:341
+msgid "Vietnamese"
+msgstr "Vietnami"
+
+#. If plugin loading fails...
+#: ../src/parole-plugins-manager.c:276
+msgid "Plugin failed to load"
+msgstr "A bővítmény betöltése meghiúsult"
+
+#: ../src/parole-plugins-manager.c:276
+msgid "Please check your installation"
+msgstr "Kérem ellenőrizze a telepítést!"
+
+#: ../src/parole-plugins-manager.c:408
+msgid "No installed plugins found on this system"
+msgstr "Nem találhatók telepített bővítmények a rendszeren"
+
+#: ../src/parole-plugins-manager.c:409
+msgid "Please check your installation."
+msgstr "Kérem ellenőrizze a telepítést!"
+
+#: ../src/misc/parole-filters.c:64
+msgid "Audio"
+msgstr "Hang"
+
+#: ../src/misc/parole-filters.c:90
+msgid "Video"
+msgstr "Videó"
+
+#: ../src/misc/parole-filters.c:115 ../src/misc/parole-filters.c:133
+msgid "Audio and video"
+msgstr "Hang és videó"
+
+#: ../src/misc/parole-filters.c:162 ../src/misc/parole-filters.c:178
+msgid "All supported files"
+msgstr "Minden támogatott fájl"
+
+#: ../src/misc/parole-filters.c:205
+msgid "Playlist files"
+msgstr "Lejátszólistafájlok"
+
+#: ../src/plugins/notify/notify-provider.c:150
+#: ../src/plugins/notify/notify-provider.c:153
+msgid "<i>on</i>"
+msgstr "<i>ezen:</i>"
+
+#: ../src/plugins/notify/notify-provider.c:150
+#: ../src/plugins/notify/notify-provider.c:153
+msgid "<i>by</i>"
+msgstr "<i>általa:</i>"
+
+#: ../src/plugins/notify/notify.desktop.in.h:1
+msgid "Notify"
+msgstr "Értesítés"
+
+#: ../src/plugins/notify/notify.desktop.in.h:2
+msgid "Show notifications for currently playing tracks"
+msgstr "Értesítések megjelenítése az éppen játszott számokhoz"
+
+#. * Previous Track
+#: ../src/plugins/tray/tray-provider.c:139
+msgid "P_revious Track"
+msgstr "_Előző szám"
+
+#. * Next Track
+#: ../src/plugins/tray/tray-provider.c:148
+msgid "_Next Track"
+msgstr "_Következő szám"
+
+#. * Open
+#: ../src/plugins/tray/tray-provider.c:164
+msgid "_Open"
+msgstr "_Megnyitás"
+
+#: ../src/plugins/tray/tray-provider.c:270
+msgid "Tray icon plugin"
+msgstr "Tálcaikon-bővítmény"
+
+#: ../src/plugins/tray/tray-provider.c:280
+msgid "Always minimize to tray when window is closed"
+msgstr "Mindig tálcára zsugorítás az ablak bezárásakor"
+
+#: ../src/plugins/tray/tray-provider.c:326
+msgid "Are you sure you want to quit?"
+msgstr "Biztosan ki akar lépni?"
+
+#: ../src/plugins/tray/tray-provider.c:329
+msgid "Parole can be minimized to the system tray instead."
+msgstr "A Parolét ehelyett le lehet kicsinyíteni a rendszertálcára."
+
+#: ../src/plugins/tray/tray-provider.c:332
+msgid "Minimize to tray"
+msgstr "Tálcára zsugorítás"
+
+#: ../src/plugins/tray/tray-provider.c:344
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../src/plugins/tray/tray-provider.c:353
+msgid "Remember my choice"
+msgstr "Válasz megjegyzése"
+
+#: ../src/plugins/tray/system-tray.desktop.in.h:1
+msgid "Tray icon"
+msgstr "Tálcaikon"
+
+#: ../src/plugins/tray/system-tray.desktop.in.h:2
+msgid "Show icon in the system tray"
+msgstr "Ikon megjelenítése a rendszertálcán"
+
+#: ../src/plugins/mpris2/mpris2.desktop.in.h:1
+msgid "MPRIS2"
+msgstr "MPRIS2"
+
+#: ../src/plugins/mpris2/mpris2.desktop.in.h:2
+msgid "MPRIS2 remote control"
+msgstr "MPRIS2 távírányítás"
